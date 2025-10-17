@@ -52,7 +52,7 @@ export const forgotPassword = async (req, res) => {
     `;
 
     await sendEmail({
-      to: user.username, // assuming username is email
+      to: user.username, // assuming username is emailjhv
       subject: "Password Reset - Nafii Portfolio",
       html: message,
     });
